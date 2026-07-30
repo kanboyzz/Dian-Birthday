@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Ulang Tahun Sayaaaang 🔒</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="gembok-body">
+    <div class="floating-decor" id="floatingHearts" aria-hidden="true"></div>
+
+    <main class="gembok-card">
+      <div class="gembok-icon-wrap" id="gemboklconWrap">
+        <svg
+          class="gembok-icon"
+          id="gembokIcon"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <rect x="5" y="11" width="14" height="10" rx="2" />
+          <path d="M8 11V7a4 4 0 0 1 8 0v4" />
+        </svg>
+      </div>
+
+      <p class="gembok-eyebrow">✦ Selamat Ulang Tahun Ya Sayaaaang ✦</p>
+      <h1 class="gembok-title">
+        Tunggu Dulu, <span data-nama-pasangan>Sayang</span>!
+      </h1>
+      <p class="gembok-desc" id="pesanKunci">Ada kejutan buat kamu...</p>
+
+      <div class="countdown" id="countdown">
+        <div class="cd-item">
+          <span class="cd-num" id="cdHari">00</span>
+          <span class="cd-label">Hari</span>
+        </div>
+        <div class="cd-item">
+          <span class="cd-num" id="cdJam">00</span>
+          <span class="cd-label">Jam</span>
+        </div>
+        <div class="cd-item">
+          <span class="cd-num" id="cdMenit">00</span>
+          <span class="cd-label">Menit</span>
+        </div>
+        <div class="cd-item">
+          <span class="cd-num" id="cdDetik">00</span>
+          <span class="cd-label">Detik</span>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-buka" id="btnBuka" disabled>
+        🔒 Masih Terkunci
+      </button>
+      <p class="gembok-hint" id="gembokHint">
+        Kejutannya akan terbuka sendiri saat waktunya tiba 💛
+      </p>
+    </main>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        if (typeof CONFIG !== "undefined") {
+          document.getElementById("pesanKunci").textContent = CONFIG.pesanKunci;
+        }
+      });
+    </script>
+  </body>
+</html>
