@@ -19,21 +19,21 @@ const FOTO_HERO = [
 ];
 
 const FOTO_GALERI = [
-  { src: "assets/foto 1.jpg" },
-  { src: "assets/foto 31.jpg" },
-  { src: "assets/foto 100.jpg" },
-  { src: "assets/foto 3.jpg" },
-  { src: "assets/foto 15.jpg" },
-  { src: "assets/foto 18.jpg" },
-  { src: "assets/foto 101.jpg" },
-  { src: "assets/foto 32.jpg" },
-  { src: "assets/foto 34.jpg" },
-  { src: "assets/foto 105.jpg" },
-  { src: "assets/foto 33.jpg" },
-  { src: "assets/foto 37.jpg" },
-  { src: "assets/foto 38.jpg" },
-  { src: "assets/foto 104.jpg" },
-  { src: "assets/foto 5.jpg" },
+  { src: "foto 1.jpg" },
+  { src: "foto 31.jpg" },
+  { src: "foto 100.jpg" },
+  { src: "foto 3.jpg" },
+  { src: "foto 15.jpg" },
+  { src: "foto 18.jpg" },
+  { src: "foto 101.jpg" },
+  { src: "foto 32.jpg" },
+  { src: "foto 34.jpg" },
+  { src: "foto 105.jpg" },
+  { src: "foto 33.jpg" },
+  { src: "foto 37.jpg" },
+  { src: "foto 38.jpg" },
+  { src: "foto 104.jpg" },
+  { src: "foto 5.jpg" },
 ];
 
 const DAFTAR_ALASAN = [
@@ -48,20 +48,20 @@ const DAFTAR_ALASAN = [
 ];
 
 const FOTO_ALASAN = [
-  { src: "assets/foto 12.jpg" },
-  { src: "assets/foto 16.jpg" },
+  { src: "foto 12.jpg" },
+  { src: "foto 16.jpg" },
 ];
 
 const FOTO_SURAT = [
-  { src: "assets/foto 25.jpg" },
-  { src: "assets/foto 22.jpg" },
+  { src: "foto 25.jpg" },
+  { src: "foto 22.jpg" },
 ];
 
 const FOTO_PENUTUP = [
-  { src: "assets/foto 29.jpg" },
-  { src: "assets/foto 30.jpg" },
-  { src: "assets/foto 35.jpg" },
-  { src: "assets/foto 37.jpg" },
-  { src: "assets/foto 6.jpg" },
-  { src: "assets/foto 10.jpg" },
+  { src: "foto 29.jpg" },
+  { src: "foto 30.jpg" },
+  { src: "foto 35.jpg" },
+  { src: "foto 37.jpg" },
+  { src: "foto 6.jpg" },
+  { src: "foto 10.jpg" },
 ];
