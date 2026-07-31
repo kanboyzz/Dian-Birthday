@@ -12,10 +12,10 @@ const CONFIG = {
 };
 
 const FOTO_HERO = [
-  { src: "assets/foto 103.jpg", caption: "First date kita" },
-  { src: "assets/foto 7.jpg", caption: "Liat satu foto kamu aja aku salting, ini ada empat" },
-  { src: "assets/foto 15.jpg", caption: "Manis banget sayaaang" },
-  { src: "assets/foto 18.jpg", caption: "Bahkan filter blur aja gabisa nandingin kecantikan kamu" },
+  { src: "foto 103.jpg", caption: "First date kita" },
+  { src: "foto 7.jpg", caption: "Liat satu foto kamu aja aku salting, ini ada empat" },
+  { src: "foto 15.jpg", caption: "Manis banget sayaaang" },
+  { src: "foto 18.jpg", caption: "Bahkan filter blur aja gabisa nandingin kecantikan kamu" },
 ];
 
 const FOTO_GALERI = [
